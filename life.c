@@ -23,7 +23,6 @@ int compute_position(int x, int y){
     return x * GRID_COLS + y;
 }
 
-
 /* fills all the cells of the grid with a given state */
 void fill_grid(char *grid, char state){
     for(int x = 0; x < GRID_ROWS; x++){
@@ -54,7 +53,6 @@ char get_cell(char *grid, int x, int y){
     char state = grid[compute_position(x,y)];
     return state;
 }
-
 
 /* given a cell, checks if the 8 neighbours are dead or alive*/
 int count_alive_neighbours(char *grid, int x, int y){
@@ -89,7 +87,6 @@ void compute_next(char *old, char *new){
         }
     }
 }
-
 
 
 int main(void){
