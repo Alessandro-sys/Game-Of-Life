@@ -6,7 +6,9 @@ This game has very simple rules. It consists of a grid of cells (sometimes infin
 Every cell has 8 neighbours:
 
 NW N NE
-W  .  E
+
+W  .  E 
+
 SW S SE
 
 If a cell is alive and has 2 or 3 living neighbours, it remains alive; otherwise, it dies (<2 due to underpopulation, >3 due to overpopulation).
