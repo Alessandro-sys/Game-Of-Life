@@ -1,0 +1,7 @@
+# Ignora tutto per default
+*
+
+# Consenti solo README e file .c
+!README.md
+!life.c
+!.gitignore
