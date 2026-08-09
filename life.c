@@ -49,6 +49,7 @@ void set_cell(char *grid, int x, int y, char state){
     grid[compute_position(x,y)] = state;
 }
 
+/* gets the state of a given cell (x,y) */
 char get_cell(char *grid, int x, int y){
     char state = grid[compute_position(x,y)];
     return state;
